@@ -1,0 +1,174 @@
+{
+  "font_dir": "handwriting_font_config",
+  "mathhand_font_dir": "mathhand_font",
+  "math_font": {
+    "enabled": true,
+    "name": "Patrick Hand",
+    "size": 15,
+    "expanded": 0,
+    "apply_to_whole_math_paragraph": true,
+    "handwriting_digits": true,
+    "number_size_jitter": 0.08,
+    "size_jitter": 0.1,
+    "position_jitter": 3.5,
+    "spacing_jitter": 4.0,
+    "scaling_range": [
+      88,
+      112
+    ],
+    "italic_chance": 0.12,
+    "align_negative_numbers": true,
+    "minus_position": 1.5,
+    "minus_spacing": -1.2,
+    "binary_minus_position": 0.8,
+    "binary_minus_spacing": -0.8
+  },
+  "digit_one": {
+    "enabled": false
+  },
+  "chinese_font": {
+    "name": "MEIYUJW",
+    "size": 16,
+    "expanded": 0
+  },
+  "font_labels": {
+    "SJNMDJW": "世界那么大",
+    "MEIYUJW": "美玉体",
+    "FZJingLeiS-R-GB": "方正静蕾简体",
+    "AR GbxingkaiGB Extrabold": "文鼎大钢笔行楷",
+    "HY JingBRJ": "汉仪井柏然体简",
+    "伯乐童年体": "伯乐童年体",
+    "BoLeZhuSunti": "伯乐字库竹笋体",
+    "DFPHanziPenW3-GB": "华康翩翩体W3P",
+    "BoLeYaYati": "伯乐雅雅体",
+    "HYPPTiJ": "汉仪PP体简",
+    "伯乐俏皮体": "伯乐俏皮体"
+  },
+  "font_configs": [
+    [
+      "SJNMDJW",
+      18,
+      -2,
+      20
+    ],
+    [
+      "MEIYUJW",
+      16,
+      0,
+      25
+    ],
+    [
+      "FZJingLeiS-R-GB",
+      14,
+      2,
+      15
+    ],
+    [
+      "AR GbxingkaiGB Extrabold",
+      14,
+      2,
+      20
+    ],
+    [
+      "HY JingBRJ",
+      17,
+      -1,
+      15
+    ],
+    [
+      "伯乐童年体",
+      15,
+      0,
+      0
+    ],
+    [
+      "BoLeZhuSunti",
+      15,
+      0,
+      15
+    ],
+    [
+      "DFPHanziPenW3-GB",
+      15,
+      1.2,
+      8
+    ],
+    [
+      "BoLeYaYati",
+      16,
+      0,
+      0
+    ],
+    [
+      "HYPPTiJ",
+      15,
+      1.2,
+      0
+    ],
+    [
+      "伯乐俏皮体",
+      15,
+      0,
+      0
+    ]
+  ],
+  "matrix_style": {
+    "use_word_table": true,
+    "use_handwriting_fonts": true,
+    "font_name": "Patrick Hand",
+    "font_size": 15,
+    "bracket_size_scale": 2.0
+  },
+  "export_formats": [
+    "docx",
+    "pdf",
+    "html",
+    "rtf"
+  ],
+  "homework_ai": {
+    "enabled": true,
+    "provider": "dashscope",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "model": "qwen-vl-plus",
+    "timeout_seconds": 120,
+    "max_tokens": 4096,
+    "temperature": 0.3,
+    "export_formats": [
+      "pdf"
+    ],
+    "merge_pdf": true,
+    "merged_pdf_name": "homework_all.pdf",
+    "save_intermediate_markdown": true
+  },
+  "handwriting_style": {
+    "paragraph_left_indent_max": 16,
+    "paragraph_first_line_indent_max": 10,
+    "paragraph_space_before_max": 8,
+    "line_spacing_range": [
+      13,
+      20
+    ],
+    "math_line_spacing_range": [
+      16,
+      22
+    ],
+    "position_jitter": 5.0,
+    "spacing_jitter": 5.0,
+    "size_jitter": 0.12,
+    "word_font_switch_chance": 0.12,
+    "math_font_switch_multiplier": 0.3,
+    "math_size_jitter": 0.1,
+    "math_position_jitter": 3.5,
+    "math_spacing_jitter": 4.0,
+    "math_scaling_range": [
+      88,
+      112
+    ],
+    "scaling_range": [
+      90,
+      112
+    ],
+    "heading_position_boost": 1.3
+  }
+}

@@ -1,0 +1,6 @@
+pywin32>=306
+pylatexenc>=2.10
+openai>=1.0.0
+python-dotenv>=1.0.0
+pypdf>=4.0.0
+gradio>=5.0.0
