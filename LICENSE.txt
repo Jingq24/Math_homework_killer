@@ -1,0 +1,20 @@
+MathHand font pack (bundled for md_to_handwriting_workflow)
+
+1. GFSNeohellenicMath.ttf
+   - Family name in Word: "GFS Neohellenic Math"
+   - License: SIL Open Font License 1.1
+   - Source: https://github.com/CyanoHao/OpenType-MATH-TTF
+
+2. JM-Handscript.otf
+   - Family name in Word: "JM Handscript"
+   - License: 100% Free (DaFont)
+   - Source: https://www.dafont.com/jm-handscript.font
+   - Author: Julián David Medina Mosquera
+
+3. PatrickHand-Regular.ttf
+   - Family name in Word: "Patrick Hand"
+   - License: SIL Open Font License 1.1
+   - Source: https://fonts.google.com/specimen/Patrick+Hand
+   - Used for numbers, formulas, and matrix cells.
+
+Note: This folder bundles open-source fonts for formula rendering.
